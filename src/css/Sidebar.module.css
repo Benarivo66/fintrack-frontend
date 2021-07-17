@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 320px)  and (max-width: 768px){
+.sidebar{
+    display: none;
+}
+}
+@media only screen and (max-width: 768px) {
+  .sidebar{
+  width: 12rem;
+
+  height: 100vh; 
+
+  background: rgb(40,41,64);
+  padding: 3rem 0rem;
+}
+}
+
+.sidebar{
+overflow-x: hidden;
+position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  height: 100%; 
+  background: rgb(40,41,64);
+  padding: 4rem 0rem;
+}
+.sidebar img{
+    padding: 2rem 1.5rem;
+}
+.sidebar ul{
+    margin-top: 3rem;
+}
+.sidebar ul li {
+     margin-top: 1.5rem;
+     padding: 1rem 1.5rem;
+}
+.sidebar ul li :active{
+    background: #fff;
+    text-decoration: none;
+    padding: 0.2rem 0.3rem;
+    /* text-align: start !important; */
+   
+    color: rgb(58, 63, 85);
+    /* border-bottom: 1px solid rgba(0,0,0,0.5) !important;
+    border-top: 1px solid rgba(225,225,225,0.05) !important; */
+}
+.sidebar ul li:hover{
+    text-decoration: none;
+}
+.sidebar ul li a {
+    color: #fff;
+    
+}
+.sidebar ul li :active a{
+    text-decoration: none;
+}
+.sidebar ul li :hover a{
+    text-decoration: none;
+}
+

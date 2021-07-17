@@ -1,0 +1,158 @@
+@media only screen and (max-width: 768px) {
+  .requestContent {
+  width: 100%;
+  min-height: 60vh;
+  position: relative;
+}
+
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 5px;
+}
+
+.requestViewTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.plusLogo{
+  width: 10px;
+  height: 10px;
+  margin-right: 3px; 
+}
+
+
+.createRequestIcon{
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  color: white;
+}
+.content-title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.request{
+  padding-bottom: 40px;
+}
+
+.requestDetailsContent {
+  margin-left: 30px;
+}
+.content-wrapper {
+  margin-left: 0 rem;
+}
+
+}
+
+@media only screen and (min-width: 320px)  and (max-width: 768px){
+  .content{
+  margin-left: 0rem !important;
+  height: 100% !important;
+  background: rgb(242, 246, 250) !important;
+}
+}
+
+/* normal screen */
+.content{
+  margin-left: 16rem;
+  min-height: 50rem!important;
+  background: rgb(242, 246, 250) !important;
+}
+.requestContent {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+}
+.cap{
+  padding: 40px;
+  margin: auto;
+}
+
+.requestViewTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.menu-link {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-active {
+  background: #444444;
+}
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 5px;
+}
+.plusLogo{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px; 
+}
+
+.deleteLogo{
+  width: 12px;
+  height: 13px;
+  margin-right: 3px; 
+}
+
+.createRequestIcon{
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  color: white;
+}
+.request-details {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.content-title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.create-request {
+  display: flex;
+align-items: center;
+}
+
+#create-request{
+  margin-top: 15px
+}
+
+.request{
+  padding-bottom: 60px;
+}
+
+.requestDetailsContent {
+  margin-left: 40px;
+}
+
+
+ 

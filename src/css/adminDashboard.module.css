@@ -1,0 +1,81 @@
+
+@media only screen and (min-width: 320px)  and (max-width: 768px){
+  .req{
+  margin-left: 0rem !important;
+  height: 100vh !important;
+  width: 100%;
+   margin: 2rem 7rem 3rem 7rem;
+   background: #ffffff;
+}
+}
+
+.req{
+   background: #ffffff;
+}
+.tableHeading th{
+background-color: rgb(40,41,64);
+color: #fff;
+text-align:center;
+cursor: pointer
+}
+td{
+    text-align: center;
+}
+td .badge{
+    text-align: center;
+}
+.tog{
+margin-left: 0.6rem;
+}
+
+.footer{
+    border-bottom: 2px solid rgb(40,41,64);
+    text-align: center;
+}
+
+.topSearch{
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown{
+    float: right !important;
+}
+.info{
+    background: rgb(242, 246, 250) !important;
+    /* height: 80vh; */
+
+    
+}
+.rightPagination{
+     margin-left: auto !important;
+     display: flex;
+     justify-content: end;
+     align-items: flex-end;
+
+}
+
+.leftArrowPagination {
+  background: #e2e2ea;
+  border-radius: 11px;
+  opacity: 1;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  margin-right: 5px;
+
+}
+.rightArrowPagination {
+  background: rgb(40,41,64);
+  color: #fff;
+  box-shadow: 4px 5px 20px #0000001a;
+  border-radius: 11px;
+  opacity: 1;
+  outline: none;
+  border: none;
+  margin-left: 0.3rem !important;
+  padding: 0.5rem 0.5rem;
+}
+.paginationPages{
+    margin-bottom: 4px;
+}
